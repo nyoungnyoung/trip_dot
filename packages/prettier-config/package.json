@@ -1,0 +1,13 @@
+{
+  "name": "@repo/prettier-config",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "exports": {
+    "./nestjs": "./nestjs.json",
+    "./nextjs": "./nextjs.json"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2"
+  }
+}
